@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') { 
             steps { 
                 git(
-                    url: 'https://github.com/Vishwak0042/webapp-cicd.git',
+                    url: 'https://github.com/kartik-04045/exp-6.git',
                     branch: 'main',
                     credentialsId: 'github-pat' // Replace with your Jenkins credential ID
                 ) 
